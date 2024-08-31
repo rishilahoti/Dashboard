@@ -7,7 +7,7 @@ export default function SideBar() {
 	const pathname = usePathname();
 
 	return (
-		<div className="hidden lg:block h-screen w-1/12 pr-1 border-r-2 sticky top-0">
+		<div className="hidden lg:block h-screen pr-1 border-r-2 sticky">
 			<div className="flex flex-col pt-5">
 				<div className="flex flex-col gap-y-4">
 					<Link href="#" passHref>
