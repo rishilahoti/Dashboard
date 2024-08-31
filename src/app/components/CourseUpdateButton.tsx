@@ -52,7 +52,7 @@ export default function DialogDemo() {
 		localStorage.setItem("percentile", percentile);
 		localStorage.setItem("score", score);
 
-		alert("Scores updated successfully");
+		alert("Scores updated successfully, Pease reload to view chages in Quick Statistics");
 	};
 
 	return (

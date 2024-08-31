@@ -1,3 +1,4 @@
+"use client"
 import Course from "./components/Course";
 import QuickStat from "./components/QuickStat";
 import SideBar from "./components/SideBar";
