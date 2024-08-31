@@ -14,10 +14,10 @@ export default function Home() {
 				</div>
 				<div className="flex-1 flex flex-col md:flex-row">
 					<div className="flex-1 p-2 mb-[150px] md:mb-0">
-						<div className="flex items-center justify-center h-24 mb-2">
+						<div className="flex items-center justify-center mb-2">
 							<Course />
 						</div>
-						<div className="flex items-center justify-center h-24 mb-2">
+						<div className="flex items-center justify-center mb-2">
 							<QuickStat/>
 						</div>
 						<div className="bg-lime-300 h-4/5"></div>
