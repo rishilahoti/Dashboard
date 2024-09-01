@@ -1,7 +1,9 @@
 "use client"
+import ComparisionGraph from "./components/ComparisionGraph";
 import Course from "./components/Course";
 import QuickStat from "./components/QuickStat";
 import SideBar from "./components/SideBar";
+import SyllabusWise from "./components/SyllabusWise";
 
 export default function Home() {
 	return (
@@ -14,17 +16,21 @@ export default function Home() {
 					<p className="font-semibold">Skill Test</p>
 				</div>
 				<div className="flex-1 flex flex-col md:flex-row">
-					<div className="flex-1 p-2 mb-[150px] md:mb-0">
+					<div className="flex-1 p-2">
 						<div className="flex items-center justify-center mb-2">
 							<Course />
 						</div>
 						<div className="flex items-center justify-center mb-2">
 							<QuickStat/>
 						</div>
-						<div className="bg-lime-300 h-4/5"></div>
+						<div className="h-4/5">
+							<ComparisionGraph />
+						</div>
 					</div>
 					<div className="flex-1 p-2">
-						<div className="bg-black h-4/5"></div>
+						<div className="">
+							<SyllabusWise />
+						</div>
 						<div className="bg-cyan-400 h-3/4 mt-2"></div>
 					</div>
 				</div>
