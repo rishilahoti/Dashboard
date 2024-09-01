@@ -4,6 +4,7 @@ import Course from "./components/Course";
 import QuickStat from "./components/QuickStat";
 import SideBar from "./components/SideBar";
 import SyllabusWise from "./components/SyllabusWise";
+import RadialCard from "./components/RadialCard";
 
 export default function Home() {
 	return (
@@ -28,10 +29,12 @@ export default function Home() {
 						</div>
 					</div>
 					<div className="flex-1 p-2">
-						<div className="">
+						<div >
 							<SyllabusWise />
 						</div>
-						<div className="bg-cyan-400 h-3/4 mt-2"></div>
+						<div className="mt-2">
+							<RadialCard />
+						</div>
 					</div>
 				</div>
 			</div>
