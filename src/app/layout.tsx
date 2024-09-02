@@ -18,6 +18,9 @@ export default function RootLayout({
 }>) {
 	return (
 		<html lang="en">
+			<head>
+				<meta name="google-site-verification" content="StKnFVMdxYtC2pDJPSr7oQjfKmXrAl1UXRLLkokFj8o" />
+			</head>
 			<body className={lexend.className}>
 				<ThemeProvider
 					attribute="class"
